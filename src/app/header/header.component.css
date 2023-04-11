@@ -1,6 +1,10 @@
 .header-container{
     max-width: 1400px;
     margin: 0 auto;
+    /* position: sticky;
+    top: 0;
+    z-index: 600;
+    background-color: #fff; */
 }
 .header {
     display: flex;
