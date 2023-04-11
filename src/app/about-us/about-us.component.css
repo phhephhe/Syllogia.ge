@@ -1,0 +1,53 @@
+.about-us-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+/* left side */
+.photo-container{
+    display: flex;
+    justify-content: right;
+}
+.photo-container img{
+    border-radius: 8px;
+}
+
+/* right side */
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    padding: 60px;
+    padding-left: 120px;
+}
+.about-syllogia{
+    width: 500px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7c859b;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+/* responsive for phone 400px */
+
+@media (max-width:400px){
+    .about-us-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    .text-container {
+        padding: 10px;
+    }
+    .about-syllogia{
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 1.2px;
+    }
+    .photo-container img{
+        width: 100%;
+    }
+}
