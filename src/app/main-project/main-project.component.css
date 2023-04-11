@@ -7,15 +7,19 @@
 .project-img-container img{
     position: absolute;
     width: 200px;
+    padding: 100px;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 400px 200px;
+    grid-template-columns: 1fr 2fr;
+    padding: 400px 100px;
+    gap: 310px;
 }
-/* .title-main-project{
-   
-} */
+.title-main-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+} 
 .dots {
     width: 40px;
     height: auto;
@@ -25,12 +29,6 @@
     font-size: 20px;
     padding-bottom: 50px;
     padding-left: 10px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-
 }
 .title{
     color: #212529;
@@ -40,11 +38,34 @@
 .paragraph{
     width: 600px;
     line-height: 1.5;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.8px;
     font-size: 18px;
     color: #7c859b;
 }
 /* right side */
 .ERPscreen img{
     width:100%;
+    border-radius: 8px;
+}
+
+/* responsive */
+
+@media (max-width:400px){
+        .grid-container {
+        grid-template-columns: 1fr;
+        padding: 150px 10px;
+        gap: 30px;
+        margin-top: 100px;
+    }
+    .paragraph{
+       width: auto;
+       line-height: 1.4;
+       letter-spacing: 0;
+    }
+    .project-img-container img{
+        width: 100px;
+        padding: 10px;
+    }
+   
+    
 }
