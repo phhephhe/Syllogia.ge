@@ -1,0 +1,48 @@
+.footer-container {   
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(79 19 163);
+    background-image: url('/assets/icons/pattern.png');
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+
+    color: #fff;
+    letter-spacing: 1.1px;
+    font-weight: 100;
+
+}
+.footer-grid{
+    padding: 40px 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+}
+.footer-title {
+    padding-bottom: 34px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.payments-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 18px;
+}
+
+@media(max-width: 400px) {
+    .footer-grid{
+        padding: 30px 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer-title {
+        padding-bottom: 24px;
+    }
+}
