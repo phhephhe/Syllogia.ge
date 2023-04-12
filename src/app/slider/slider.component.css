@@ -1,0 +1,52 @@
+.main-container{
+    width: 100%;
+}
+.slider-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 60px auto 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.aproach-challenge-container, .slider{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.title{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    color: #1e1e1e;
+    margin-bottom: 16px;
+}
+.paragraph{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    margin: 0;
+    color: #7c859b;
+    letter-spacing: 1.2px;
+}
+.photo img{
+    width: 100%;
+}
+
+@media(max-width:400px){
+    .aproach-challenge-container, .slider {
+        grid-template-columns: 1fr;
+    }
+    .grid-container{
+        padding: 10px;
+    }
+    .paragraph{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}

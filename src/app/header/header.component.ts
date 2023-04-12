@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
 }
+// function toggleMobileMenu(menu) {
+//   menu.classList.toggle('open');
+// }

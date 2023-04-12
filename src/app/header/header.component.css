@@ -1,14 +1,14 @@
 .header-container{
-    max-width: 1400px;
-    margin: 0 auto;
-    /* position: sticky;
+    /* max-width: 1400px;
+    margin: 0 auto; */
+    position: sticky;
     top: 0;
     z-index: 600;
-    background-color: #fff; */
+    background-color: #fff;
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 70px;
     padding: 0 24px;
@@ -46,6 +46,9 @@
 
  /* menu responsive */
  @media (max-width:400px){
+    .header{
+        justify-content: space-between;
+    }
     /* on click toggle nav-open class to navigation container */
     .navigation-container{    
         position: absolute;
