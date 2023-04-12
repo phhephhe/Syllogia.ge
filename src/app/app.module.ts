@@ -11,6 +11,7 @@ import { TeamBackgroundComponent } from './team-background/team-background.compo
 import { SliderComponent } from './slider/slider.component';
 import { ReviewComponent } from './review/review.component';
 import { TeamMembersComponent } from './team-members/team-members.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TeamMembersComponent } from './team-members/team-members.component';
     SliderComponent,
     ReviewComponent,
     TeamMembersComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
