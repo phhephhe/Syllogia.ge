@@ -9,6 +9,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { MainProjectComponent } from './main-project/main-project.component';
 import { TeamBackgroundComponent } from './team-background/team-background.component';
 import { SliderComponent } from './slider/slider.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SliderComponent } from './slider/slider.component';
     MainProjectComponent,
     TeamBackgroundComponent,
     SliderComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
