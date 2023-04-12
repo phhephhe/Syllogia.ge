@@ -10,6 +10,7 @@ import { MainProjectComponent } from './main-project/main-project.component';
 import { TeamBackgroundComponent } from './team-background/team-background.component';
 import { SliderComponent } from './slider/slider.component';
 import { ReviewComponent } from './review/review.component';
+import { TeamMembersComponent } from './team-members/team-members.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ReviewComponent } from './review/review.component';
     TeamBackgroundComponent,
     SliderComponent,
     ReviewComponent,
+    TeamMembersComponent,
   ],
   imports: [
     BrowserModule,

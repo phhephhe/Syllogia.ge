@@ -1,0 +1,26 @@
+.team-members-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-top: 200px;
+}
+.team-members-header {
+    text-align: center;
+}
+.header{
+    color: #3e3389;
+    font-size: 20px;
+}
+.review-title{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    color: rgb(30,30,30);
+}
+.paragraph {
+    color: #7c859b;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.5px;
+}
