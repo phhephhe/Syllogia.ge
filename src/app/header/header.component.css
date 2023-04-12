@@ -109,7 +109,7 @@
 
 .hamb-line::before,
 .hamb-line::after{
-    background: rgb(255, 2, 2);
+    background: #4731b7;
     content: '';
     display: block;
     height: 100%;
@@ -142,9 +142,11 @@
 .side-menu:checked ~ .hamb .hamb-line::before {
     transform: rotate(-45deg);
     top:0;
+    background: #fff;
 }
 .side-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
     top:0;
+    background: #fff;
 }
 }
