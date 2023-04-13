@@ -37,7 +37,7 @@
     width: 100%;
 }
 
-@media(max-width:400px){
+@media(max-width:420px){
     .aproach-challenge-container, .slider {
         grid-template-columns: 1fr;
     }

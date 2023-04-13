@@ -58,9 +58,10 @@
 }
 
 
-@media (max-width:400px){
+@media (max-width:420px){
     .grid-container {
         grid-template-columns: 1fr;
         padding: 40px 10px;
     }
 }
+

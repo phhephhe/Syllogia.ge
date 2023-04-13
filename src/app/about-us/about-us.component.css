@@ -6,17 +6,32 @@
 }
 /* left side */
 
-.photo-container img{
+/* .photo-container img{
     border-radius: 8px;
     width: 100%;
+} */
+.team-image1{
+    border-radius: 8px;
+    width: 100%;
+    opacity: 0;
+}
+
+.animated-text{
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
 }
 
 /* right side */
-.text-container {
+.description {
     display: flex;
     justify-content: center;
     flex-direction: column;  
     padding-left: 120px;
+    opacity: 0;
+}
+.text-animation {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
 }
 .about-syllogia{
     width: 610px;
@@ -29,14 +44,14 @@
 
 /* responsive for phone 400px */
 
-@media (max-width:400px){
+@media (max-width:420px){
     .about-us-container{
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 0px;
         padding: 10px;
     }
-    .text-container {
+    .description {
         padding: 10px;
     }
     .about-syllogia{

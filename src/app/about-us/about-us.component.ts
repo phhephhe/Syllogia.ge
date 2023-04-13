@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-about-us',
@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent {
-
+  public image1Animation:boolean = false;
+  public image2Animation:boolean = false;
+ 
+  @HostListener('document:scroll')
+  scrollFunction(){
+    if(document.body.scrollTop > 0  || document.documentElement.scrollTop > 0){
+      this.image1Animation = true;
+    } else{
+     this.image1Animation = false;
+    }
+    
+    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+      this.image2Animation = true;
+    } else{
+     this.image2Animation = false;
+    }
+  }
 }

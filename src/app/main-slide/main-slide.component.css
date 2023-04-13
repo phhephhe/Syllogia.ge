@@ -67,11 +67,11 @@
 
   /* main slide responsive */
 
-@media (max-width:400px){
+@media (max-width:420px){
     .main-slide-container{
         grid-template-columns: 1fr ;
         align-items: center;
-        min-height: 600px;
+        min-height: 700px;
         padding-top: 100px;
         border-radius: 12px;
     }
@@ -88,7 +88,7 @@
     }
     .mobile-img{
         left: 45px;
-        width: 15%;
+        width: 11%;
         animation: MoveUpDown 4s linear infinite;
     }
     @keyframes MoveUpDown {
