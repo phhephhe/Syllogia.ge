@@ -1,6 +1,4 @@
 .header-container{
-    /* max-width: 1400px;
-    margin: 0 auto; */
     position: sticky;
     top: -1px;
     z-index: 600;

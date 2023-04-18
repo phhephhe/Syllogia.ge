@@ -13,6 +13,12 @@ import { ReviewComponent } from './review/review.component';
 import { TeamMembersComponent } from './team-members/team-members.component';
 import { FooterComponent } from './footer/footer.component';
 
+
+
+// import { MaterialModule } from 'src/app/material/material.module';
+// import { NgImageSliderModule } from 'ng-image-slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +34,10 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // MaterialModule,
+    // NgImageSliderModule,
+    // BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

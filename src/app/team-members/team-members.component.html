@@ -1,4 +1,4 @@
-<div class="team-members-container">
+<!-- <div class="team-members-container">
     <div class="team-members-header">
         <div >
             <span>
@@ -33,4 +33,93 @@
             <div class="position-level">Senior Front-End Developer</div>
         </div>
     </div>
+</div> -->
+
+<div class="syll-team">
+    
+    <div class="team-info">
+        <div class="some-text">
+            <div style="padding:40px 0px">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 17 4" fill="none"><path d="M8.5 4C9.60457 4 10.5 3.10457 10.5 2C10.5 0.89543 9.60457 0 8.5 0C7.39543 0 6.5 0.89543 6.5 2C6.5 3.10457 7.39543 4 8.5 4Z" fill="#3e3389"></path><path d="M2.5 4C3.60457 4 4.5 3.10457 4.5 2C4.5 0.89543 3.60457 0 2.5 0C1.39543 0 0.5 0.89543 0.5 2C0.5 3.10457 1.39543 4 2.5 4Z" fill="#3e3389"></path><path d="M14.5 4C15.6046 4 16.5 3.10457 16.5 2C16.5 0.89543 15.6046 0 14.5 0C13.3954 0 12.5 0.89543 12.5 2C12.5 3.10457 13.3954 4 14.5 4Z" fill="#3e3389"></path></svg>
+                </span>
+                <span class="team-name">
+                    SYLLOGIA TEAM
+                </span>
+            </div>
+            <h3>About out Team</h3>
+            <p>The main goal of
+                Syllogia is to create a multi-platform business ERP application that
+                will be adapted to the business models and</p>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+    
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="d-block w-100" >
+                    <div class="slide">
+                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:0:4; let i = index">
+                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                            <div class="member-info">
+                              <h3>{{memberInfo.fullname}}</h3>
+                              <p>{{memberInfo.position}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="d-block w-100" >
+                    <div class="slide">
+                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:3:7; let i = index">
+                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                            <div class="member-info">
+                              <h3>{{memberInfo.fullname}}</h3>
+                              <p>{{memberInfo.position}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="d-block w-100" >
+                    <div class="slide">
+                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:0:4; let i = index">
+                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                            <div class="member-info">
+                              <h3>{{memberInfo.fullname}}</h3>
+                              <p>{{memberInfo.position}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-block w-100" >
+                    <div class="slide">
+                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:4:7; let i = index">
+                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                            <div class="member-info">
+                              <h3>{{memberInfo.fullname}}</h3>
+                              <p>{{memberInfo.position}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+    
+         </div>
+    </div>
+
 </div>

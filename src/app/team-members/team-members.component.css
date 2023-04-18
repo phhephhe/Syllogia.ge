@@ -1,4 +1,4 @@
-.team-members-container {
+/* .team-members-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,6 @@
     font-size: 16px;
     line-height: 24.5px;
 }
-/*  */
 
 .grid-container{
     display: grid;
@@ -64,4 +63,96 @@
         padding: 40px 10px;
     }
 }
+ */
 
+ body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.some-text{
+    text-align: center;
+}
+.some-text h3 {
+    font-size: 27px;
+    font-weight: 400;
+    font-stretch: 75%;
+    color: rbg(50,50,50);
+}
+
+.member-info h3{
+    font-size: 25px;
+    font-weight: 400;
+    font-stretch: 75%;
+    color: rbg(50,50,50);
+}
+
+.some-text p {
+    color:rgb(124,133,155);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24.5px;
+}
+
+.team-name{
+    color: #4f13a3;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.team-info{
+    background: rgb(245,245,245);
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    /* height: 700px; */
+    margin-bottom: 150px;
+}
+.member-image{
+    width: 80%;
+    height: 300px;
+    border-radius: 5%;
+    padding: 20px 0px;
+}
+
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.info-div{
+    width: 350px;
+    height: 400px;
+    background: white;
+    
+    margin: 50px 0px 100px 0px;
+    border-radius: 3%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+  }
+  
+  .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #4f13a3; /* purple border */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #4f13a3; /* purple background */
+    border-color:#4f13a3;
+  }
