@@ -52,6 +52,7 @@
         justify-content: space-between;
     }
     .navigation-container{    
+        padding-top: 50px;
         position: absolute;
         top: 0;
         right: 0;
