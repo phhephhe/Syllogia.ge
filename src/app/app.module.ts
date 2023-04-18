@@ -16,7 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 
 
 // import { MaterialModule } from 'src/app/material/material.module';
-// import { NgImageSliderModule } from 'ng-image-slider';
+import { NgImageSliderModule } from 'ng-image-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -36,7 +36,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     // MaterialModule,
-    // NgImageSliderModule,
+    NgImageSliderModule,
     // BrowserAnimationsModule
   ],
   providers: [],

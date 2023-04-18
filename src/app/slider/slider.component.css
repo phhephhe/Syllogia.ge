@@ -11,10 +11,16 @@
     grid-template-columns: 1fr;
     gap: 30px;
 }
-.aproach-challenge-container, .slider{
+.slider{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.aproach-challenge-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 80px;
 }
 .title{
     font-weight: 400;
@@ -33,13 +39,14 @@
     color: #7c859b;
     letter-spacing: 1.2px;
 }
-.photo img{
-    width: 100%;
+img{
+    width: 100px;
 }
 
 @media(max-width:420px){
     .aproach-challenge-container, .slider {
         grid-template-columns: 1fr;
+        gap: 10px;
     }
     .grid-container{
         padding: 10px;
@@ -51,5 +58,4 @@
     .title{
         font-size: 27px;
     }
-
 }
