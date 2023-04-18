@@ -1,6 +1,4 @@
 .footer-container {   
-    font-family: 'Poppins', sans-serif;
-
     width: 100%;
     height: auto;
     background-color: rgb(79 19 163);
@@ -12,13 +10,17 @@
     color: #fff;
     letter-spacing: 1.1px;
     font-weight: 100;
-
 }
 .footer-grid{
     padding: 40px 200px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 60px;
+}
+.syll-brand{
+    width: 200px; 
+    height: 74px;
+    margin-top: -20px;
 }
 .footer-title {
     padding-bottom: 34px;
@@ -40,9 +42,19 @@
     .footer-grid{
         padding: 30px 20px;
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 38px;
     }
     .footer-title {
         padding-bottom: 24px;
+    }
+    .payments-grid {
+        gap: 35px;
+    }
+    .footer-list{
+        gap: 15px;
+    }
+    .footer-paragraph{
+        letter-spacing: 0.4px;
+        margin-top: 20px;
     }
 }
