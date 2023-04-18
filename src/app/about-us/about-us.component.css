@@ -13,12 +13,12 @@
 .team-image1{
     border-radius: 8px;
     width: 100%;
-    opacity: 0;
+    transform: translateX(-200%);
 }
 
 .animated-text{
-    opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
 }
 
 /* right side */
@@ -28,10 +28,13 @@
     flex-direction: column;  
     padding-left: 120px;
     opacity: 0;
+    transform: translateY(20%);
 }
 .text-animation {
     opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transform: translateY(0);
+    transition: opacity,transform 2s ease-out;
+    
 }
 .about-syllogia{
     width: 610px;

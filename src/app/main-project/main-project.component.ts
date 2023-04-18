@@ -10,7 +10,7 @@ export class MainProjectComponent {
 
   @HostListener('document:scroll')
   scrollFunction(){
-  if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800){
+  if(document.body.scrollTop > 900 || document.documentElement.scrollTop > 900){
       this.image2Animation = true;
     } else{
      this.image2Animation = false;

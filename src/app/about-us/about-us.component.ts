@@ -6,23 +6,15 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent {
-  public image1Animation:boolean = false;
   public image2Animation:boolean = false;
- 
+
   @HostListener('document:scroll')
   scrollFunction(){
-    if(document.body.scrollTop > 0  || document.documentElement.scrollTop > 0){
-      this.image1Animation = true;
-    } else{
-     this.image1Animation = false;
-    }
-    
-    if(document.body.scrollTop > 700 || document.documentElement.scrollTop > 700){
+  if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
       this.image2Animation = true;
     } else{
      this.image2Animation = false;
     }
-    
 
   }
 }
