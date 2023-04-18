@@ -3,11 +3,7 @@
     background-color: #f5f5f5;
     width: 100%;
 }
-.project-img-container img{
-    position: absolute;
-    width: 200px;
-    padding: 100px;
-}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -15,11 +11,56 @@
     gap: 310px;
     margin-top: 200px;
 }
+/* animations */
 .title-main-project{
     display: flex;
     flex-direction: column;
     justify-content: center; 
+
+    transform: translateX(-200%);
 } 
+
+.project-animation{
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+}
+
+
+
+.team-image2{
+    width:100%;
+    border-radius: 8px;
+
+    opacity: 0;
+}
+
+.animated-text{
+    opacity: 1;
+    transition: opacity 4s ease;
+}
+
+
+.radio-30{
+    position: absolute;
+    width: 25%;
+    padding: 100px;
+
+    transform: translateX(-200%);
+}
+
+.radio-animated{
+    transform: translateX(0);
+    transition: transform 1.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
 .dots {
     width: 40px;
     height: auto;
@@ -43,10 +84,6 @@
     color: #7c859b;
 }
 /* right side */
-.ERPscreen img{
-    width:100%;
-    border-radius: 8px;
-}
 
 /* responsive */
 

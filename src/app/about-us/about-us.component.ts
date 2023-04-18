@@ -17,10 +17,12 @@ export class AboutUsComponent {
      this.image1Animation = false;
     }
     
-    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+    if(document.body.scrollTop > 700 || document.documentElement.scrollTop > 700){
       this.image2Animation = true;
     } else{
      this.image2Animation = false;
     }
+    
+
   }
 }

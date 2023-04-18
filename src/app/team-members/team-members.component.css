@@ -121,7 +121,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 30px; 
 }
 
 .info-div{
@@ -155,4 +155,17 @@
   .carousel-indicators .active {
     background-color: #4f13a3; /* purple background */
     border-color:#4f13a3;
+  }
+
+
+  @media (max-width:420px){
+    .slide {
+        display: block;
+    }
+    .team-info {
+        padding: 20px;
+    }
+    .info-div{         
+        margin: 20px 0px 80px 0px;       
+    }
   }

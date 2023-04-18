@@ -46,7 +46,10 @@ img{
 @media(max-width:420px){
     .aproach-challenge-container, .slider {
         grid-template-columns: 1fr;
+    }
+    .aproach-challenge-container {
         gap: 10px;
+        padding: 10px;
     }
     .grid-container{
         padding: 10px;

@@ -1,10 +1,10 @@
 <div class="main-project-container">
     
         <div class="project-img-container">
-            <img src="../../assets/images/main-project-img.jpg" alt="main-project">
+            <img src="../../assets/images/main-project-img.jpg" alt="main-project" class="radio-30" [class.radio-animated]="image2Animation">
         </div>
         <div class="grid-container">
-            <div class="title-main-project">
+            <div class="title-main-project" [class.project-animation]="image2Animation">
                 <div>
                     <img src="../../assets/images/3dots.png" alt="3dots" class="dots">
                     <span class="text-main-project">OUR MAIN PROJECT</span>
@@ -15,7 +15,7 @@
                 </p>
             </div>
             <div class="ERPscreen">
-                <img src="../../assets/images/ERPscreen.jpg" alt="ERP-screen">
+                <img src="../../assets/images/ERPscreen.jpg" alt="ERP-screen" class="team-image2" [class.animated-text]="image2Animation">
             </div>
         </div>    
 
