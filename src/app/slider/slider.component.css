@@ -42,8 +42,22 @@
 img{
     width: 100px;
 }
-
+.desktop-slider{
+    display: block;
+}
+.mobile-slider {
+    display: none;
+}
 @media(max-width:420px){
+    /* slider */
+.desktop-slider{
+    display: none;
+}
+.mobile-slider {
+    display: block;
+}
+    /*  */
+
     .aproach-challenge-container, .slider {
         grid-template-columns: 1fr;
     }

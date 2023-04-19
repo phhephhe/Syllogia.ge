@@ -15,12 +15,25 @@
                 </div>
             </div> -->
 
-            <div class="slider">
+            <div class="slider desktop-slider">
                 <ng-image-slider #nav
                 [images]="images"
                 [infinite]="true"
                 [autoSlide]="2"
                 [slideImage]="1.5"
+                [animationSpeed]="1"
+                [lazyLoading]="true"
+                [imageSize]="{ width: 655, height: 500  , space: 10}"
+                [arrowKeyMove]="false">
+                </ng-image-slider>
+            </div>
+
+            <div class="slider mobile-slider">
+                <ng-image-slider #nav
+                [images]="images"
+                [infinite]="true"
+                [autoSlide]="2"
+                [slideImage]="1"
                 [animationSpeed]="1"
                 [lazyLoading]="true"
                 [imageSize]="{ width: 655, height: 500  , space: 10}"
