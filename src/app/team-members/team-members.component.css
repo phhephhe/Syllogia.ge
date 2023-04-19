@@ -156,7 +156,12 @@
     background-color: #4f13a3; /* purple background */
     border-color:#4f13a3;
   }
-
+  .desktop-team-slider {
+    display: block;
+}
+.mobile-team-slider {
+    display: none;
+}
 
   @media (max-width:420px){
     .slide {
@@ -167,5 +172,11 @@
     }
     .info-div{         
         margin: 20px 0px 80px 0px;       
+    }
+    .desktop-team-slider {
+        display: none;
+    }
+    .mobile-team-slider {
+        display: block;
     }
   }

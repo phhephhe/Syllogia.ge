@@ -52,7 +52,10 @@
                 Syllogia is to create a multi-platform business ERP application that
                 will be adapted to the business models and</p>
         </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <!-- desktop team slider -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide desktop-team-slider" data-bs-ride="carousel">
+
+
             <div class="carousel-inner">
     
               <div class="carousel-item active" data-bs-interval="2000">
@@ -83,43 +86,135 @@
                 </div>
               </div>
     
-              <div class="carousel-item" data-bs-interval="2000">
-                <div class="d-block w-100" >
-                    <div class="slide">
-                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:0:4; let i = index">
-                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
-                            <div class="member-info">
-                              <h3>{{memberInfo.fullname}}</h3>
-                              <p>{{memberInfo.position}}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="d-block w-100" >
-                    <div class="slide">
-                        <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:3:7; let i = index">
-                            <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
-                            <div class="member-info">
-                              <h3>{{memberInfo.fullname}}</h3>
-                              <p>{{memberInfo.position}}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
             </div>
     
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+       
             </div>
     
          </div>
+
+<!-- mobile team-slider -->
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide mobile-team-slider" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="2000">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:0:1; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:1:2; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:2:3; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:3:4; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:4:5; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:5:6; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100" >
+            <div class="slide">
+                <div class="info-div" *ngFor="let memberInfo of teamInfo | slice:6:7; let i = index">
+                    <img src="https://wordpress.iqonic.design/product/wp/sofbox/wp-content/uploads/2020/08/team-6.webp" alt="image" class="member-image">
+                    <div class="member-info">
+                      <h3>{{memberInfo.fullname}}</h3>
+                      <p>{{memberInfo.position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+
+ </div>
+
+
     </div>
 
 </div>
