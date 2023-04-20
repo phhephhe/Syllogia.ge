@@ -22,7 +22,7 @@
 
 .project-animation{
     transform: translateX(0);
-    transition: transform 1s ease-in-out;
+    transition: transform 1s;
 }
 
 .team-image2{
@@ -32,7 +32,7 @@
 }
 .animated-text{
     opacity: 1;
-    transition: opacity 4s ease;
+    transition: opacity 3s ease;
 }
 .radio-30{
     position: absolute;
@@ -42,7 +42,7 @@
 }
 .radio-animated{
     transform: translateX(0);
-    transition: transform 1.5s ease-in-out;
+    transition: transform 1s;
 }
 .dots {
     width: 40px;
@@ -116,6 +116,12 @@
     background-color: #fff;
     padding: 38px 12px;
     border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.module:hover{
+    scale: 1.05;
+    box-shadow: 0px 5px 20px 0px rgb(0, 0, 0, 0.1);
 }
 .module img{
     width: 80px;
@@ -132,6 +138,10 @@
 /* grid responsive */
 
 @media(max-width:420px){
+    .radio-animated {
+    transform: translateX(270%);
+
+    }
     .grid-container {
         grid-template-columns: 1fr;
         padding: 150px 10px;

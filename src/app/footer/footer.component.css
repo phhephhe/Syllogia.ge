@@ -15,7 +15,10 @@
     padding: 40px 200px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 60px;
+    gap: 250px;
+    justify-items: center;
+    align-items: center;
+    height: 555px;
 }
 .syll-brand{
     width: 200px; 
@@ -43,6 +46,8 @@
         padding: 30px 20px;
         grid-template-columns: 1fr;
         gap: 38px;
+        justify-items: stretch;
+        height: auto;
     }
     .footer-title {
         padding-bottom: 24px;

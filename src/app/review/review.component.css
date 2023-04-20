@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .review{
@@ -41,7 +42,6 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
-
 }
 
 #review-footer{
@@ -81,7 +81,7 @@ p{
     line-height: 30px;
     text-align: left;
     text-size-adjust: 100%;
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 @media (max-width:420px){
@@ -94,6 +94,7 @@ p{
     }
     .review-content{
         flex-direction: column;
+        gap: 0;
     }
     .review-title{
         font-size: 27px;

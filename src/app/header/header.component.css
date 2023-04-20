@@ -3,7 +3,7 @@ ul {
 }
 .header-container{
     position: sticky;
-    top: -1px;
+    top: 0;
     z-index: 600;
     background-color: #fff;
 }
@@ -25,18 +25,19 @@ ul {
     font-size: 16px;
  }
  .navigation-list li {
-    padding: 28px 38px;
+    padding: 20px 38px;
     font-family: sans-serif;
     font-weight: 400;
+    cursor: pointer;
  }
- .navigation-list a:hover {
+ .navigation-list li:hover {
     background-color:#4f13a3;;
     color: #fff;
  }
- a{
+ /* a{
     text-decoration: none;
     color: black;
- }
+ } */
  /* menu icon */
  .menu-icon{
     width: 20px;
@@ -83,11 +84,7 @@ ul {
     .menu{
         display: none;
     }
-    /* toggle */
-    .side-menu {
-        display: block;
-     }
-    
+  
     /* Menu Icon */
     .hamb{
         cursor: pointer;
@@ -121,10 +118,10 @@ ul {
     .hamb-line::after{
         top: -5px;
     }
-
     .side-menu {
         display: none;
-    } /* Hide checkbox */
+    }   
+    /* Hide checkbox */
 
     /* Toggle menu icon */
     .side-menu:checked ~ .navigation-container{

@@ -1,0 +1,158 @@
+
+.close{
+    border: none;
+    background-color: rgb(170, 10, 10);
+
+    position: absolute;
+    top: 20px;
+    right: 9px;
+}
+
+.contact-bar{
+    width: 395px;
+    height: 100%;
+
+    background-color: black;
+    opacity: .9;
+    background-attachment: fixed;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 601;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+        /* (2) */
+    pointer-events: none;
+        /* (3) */
+    visibility: hidden;
+}
+
+
+ .contact-bar p {
+    font-size: 16px;
+    color: #ffffff ;
+ }
+
+ .contact-bar h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff ;
+ }
+
+.contact-bar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    position: absolute;
+    top: 50px;
+}
+.text {
+    position: absolute;
+    top: 150px;
+}
+
+.text .text-one , .text .text-two{
+    padding: 10px 30px ;
+    text-align: center;
+}
+
+.download {
+    position:absolute;
+    bottom: 150px;
+}
+
+.download a {
+    color: #3e3389;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.download a:hover {
+    font-size: 22px;
+}
+
+.seperator{
+    width: 80%;
+    height: 1px;
+    background: rgb(169, 166, 166);
+    position: absolute;
+    left: 11%;
+}
+
+/* Menu Icon */
+.hamb{
+    background-color: red;
+    cursor: pointer;
+    padding: 40px 20px;
+    z-index: 99999999;
+}
+/* Style label tag */
+
+.hamb-line {
+    background: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+/* Hide checkbox */
+
+/* Toggle menu icon */
+.side-menu:checked ~ .contact-bar{
+    opacity: 1;
+    /* (2) */
+    pointer-events: auto;
+    /* (3) */
+    visibility: visible;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+    background: #fff;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+    background: #fff;
+}
+
+
+@media (max-width:420px){
+    .contact-bar-container {
+        display: none;
+    }
+}

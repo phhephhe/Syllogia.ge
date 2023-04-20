@@ -20,7 +20,7 @@
 .aproach-challenge-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
+    gap: 85px;
 }
 .title{
     font-weight: 400;

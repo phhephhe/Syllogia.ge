@@ -1,9 +1,9 @@
 <div class="header-container">
     <header class="header">
         <div class="logo">
-            <a href="#">
+            <div (click)="onClick()">
                  <img src="../../assets/images/logoMain.png" alt="main-logo" class="logo-img">
-             </a>
+        </div>
         </div>
         <!-- nav-open -->
         
@@ -12,26 +12,22 @@
           <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
 
-        <nav class="navigation-container">
+        <nav class="navigation-container" id="nav-container">
 
             <!-- <div class="close-icon"></div> -->
             
             <ul class="navigation-list">
-                <a href="#">
-                    <li>Home</li>
-                </a>
-                <a href="#">
-                    <li>About us</li>
-                </a>
-                <a href="#">
-                    <li>Projects</li>
-                </a>
-                <a href="#">
-                    <li>Team</li>
-                </a>
-                <a href="#">
+                 
+                    <li (click)="onClick()">Home</li>
+                
+                    <li (click)="scrollToAbout()">About us</li>
+                   
+                    <li (click)="scrollToProject()">Projects</li>
+                
+                    <li (click)="scrollToTeam()">Team</li>
+                
                     <li>Contact</li>
-                </a>
+                
             </ul>
         </nav>
         <div class="menu">

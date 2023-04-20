@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
 // import { MaterialModule } from 'src/app/material/material.module';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactBarComponent } from './contact-bar/contact-bar.component';
 
 @NgModule({
   declarations: [
@@ -31,13 +32,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReviewComponent,
     TeamMembersComponent,
     FooterComponent,
+    ContactBarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // MaterialModule,
     NgImageSliderModule,
-    // BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
