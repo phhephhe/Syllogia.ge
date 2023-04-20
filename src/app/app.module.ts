@@ -15,10 +15,11 @@ import { FooterComponent } from './footer/footer.component';
 
 
 
-// import { MaterialModule } from 'src/app/material/material.module';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactBarComponent } from './contact-bar/contact-bar.component';
+import { MainComponent } from "./main/main.component";
+
 
 @NgModule({
   declarations: [
@@ -33,11 +34,13 @@ import { ContactBarComponent } from './contact-bar/contact-bar.component';
     TeamMembersComponent,
     FooterComponent,
     ContactBarComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgImageSliderModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

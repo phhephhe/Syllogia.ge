@@ -68,6 +68,10 @@
   /* main slide responsive */
 
 @media (max-width:420px){
+      .purple-part{
+      
+        top: 490px;
+    }
     .main-slide-container{
         grid-template-columns: 1fr ;
         align-items: center;

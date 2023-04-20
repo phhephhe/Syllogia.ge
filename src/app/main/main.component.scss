@@ -1,0 +1,109 @@
+.top-arrow{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    z-index: 100;
+    position: fixed;
+    right:0;
+    top: 50%;
+}
+.arrow{
+    color: #d92d2d;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+
+.close{
+    border: none;
+    background-color: black;
+
+    position: absolute;
+    top: 20px;
+    right: 9px;
+}
+
+.contact-bar{
+    width: 395px;
+    height: 100%;
+
+    background-color: black;
+    opacity: .9;
+    background-attachment: fixed;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 601;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ .contact-bar p {
+    font-size: 16px;
+    color: #ffffff ;
+ }
+
+ .contact-bar h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff ;
+ }
+
+.contact-bar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    position: absolute;
+    top: 50px;
+}
+.text {
+    position: absolute;
+    top: 150px;
+}
+
+.text .text-one , .text .text-two{
+    padding: 10px 30px ;
+    text-align: center;
+}
+
+.download {
+    position:absolute;
+    bottom: 150px;
+}
+
+.download a {
+    color: #3e3389;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.download a:hover {
+    font-size: 22px;
+}
+
+.seperator{
+    width: 80%;
+    height: 1px;
+    background: rgb(169, 166, 166);
+    position: absolute;
+    left: 11%;
+}
+
+@media(max-width:420px){
+    .arrow {
+        display: none;
+    }
+}
