@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
 
-
+  @ViewChild('myCheckbox', { static: true })
+  myCheckbox!: ElementRef;
   @Output() public openContactBar:EventEmitter<any> = new EventEmitter();
 
 
@@ -20,18 +21,22 @@ export class HeaderComponent {
 
    onClick():void{
     window.scrollTo(0,0)
+    this.myCheckbox.nativeElement.checked = false;
   }
 
    scrollToAbout():void{
     window.scrollTo(0,850)
-    
+    this.myCheckbox.nativeElement.checked = false;
   }
 
    scrollToProject():void{
     window.scrollTo(0,1700)
+    this.myCheckbox.nativeElement.checked = false;
   }
   
   scrollToTeam():void{
-    window.scrollTo(0,5750)
+    window.scrollTo(0,5570)
+    this.myCheckbox.nativeElement.checked = false;
   }
+
 }
