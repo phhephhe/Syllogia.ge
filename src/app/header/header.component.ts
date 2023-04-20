@@ -9,6 +9,7 @@ export class HeaderComponent {
 
   @ViewChild('myCheckbox', { static: true })
   myCheckbox!: ElementRef;
+
   @Output() public openContactBar:EventEmitter<any> = new EventEmitter();
 
 
@@ -25,7 +26,7 @@ export class HeaderComponent {
   }
 
    scrollToAbout():void{
-    window.scrollTo(0,850)
+    window.scrollTo(0,700)
     this.myCheckbox.nativeElement.checked = false;
   }
 
@@ -36,6 +37,11 @@ export class HeaderComponent {
   
   scrollToTeam():void{
     window.scrollTo(0,5570)
+    this.myCheckbox.nativeElement.checked = false;
+  }
+
+  scrollToContact():void{
+    window.scrollTo(0,document.body.scrollHeight);
     this.myCheckbox.nativeElement.checked = false;
   }
 

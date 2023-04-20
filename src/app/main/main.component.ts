@@ -12,7 +12,6 @@ export class MainComponent {
 
   public displayContact(visible: boolean): void {
    this.contactOnDisplay = visible;
-   console.log(this.contactOnDisplay)
   }
  
   public closeContactBar(): void{

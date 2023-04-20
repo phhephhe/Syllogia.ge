@@ -10,7 +10,7 @@ export class AboutUsComponent {
 
   @HostListener('document:scroll')
   scrollFunction(){
-  if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+  if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
       this.image2Animation = true;
     } else{
      this.image2Animation = false;
