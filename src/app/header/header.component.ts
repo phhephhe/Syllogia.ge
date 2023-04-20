@@ -32,6 +32,6 @@ export class HeaderComponent {
   }
   
   scrollToTeam():void{
-    window.scrollTo(0,3825)
+    window.scrollTo(0,5750)
   }
 }
