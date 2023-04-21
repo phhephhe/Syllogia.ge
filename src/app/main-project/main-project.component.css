@@ -7,14 +7,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 400px 100px 300px;
+    padding: 310px 100px 300px;
     margin-top: 200px;
+    gap: 100px;
 }
 /* animations */
 .title-main-project{
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: end; 
     padding-left: 150px;
     transform: translateX(-200%);
     transition: transform 1s;
@@ -26,7 +27,7 @@
 }
 
 .team-image2{
-    width:100%;
+    width: 87%;
     border-radius: 8px;
     opacity: 0;
     transition: opacity 4s ease;
@@ -40,8 +41,9 @@
 }
 .radio-30{
     position: absolute;
-    width: 25%;
-    padding: 100px;
+    padding-left: 130px;
+    padding-top: 130px;
+    width: 18%;
     transform: translateX(-200%);
     transition: transform 1s;
 
@@ -145,6 +147,9 @@
 /* grid responsive */
 
 @media(max-width:420px){
+    .team-image2{
+        width: 100%;  
+    }
     .radio-animated {
     transform: translateX(270%);
 
