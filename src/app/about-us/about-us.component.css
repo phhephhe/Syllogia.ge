@@ -3,7 +3,6 @@
     grid-template-columns: 1fr 1fr;
     margin-top: 200px;
     padding-left: 100px;
-    gap: 25px;
 }
 /* left side */
 
@@ -13,7 +12,7 @@
 } */
 .team-image1{
     border-radius: 8px;
-    width: 100%;
+    width: 90%;
     transform: translateX(-200%);
     transition: transform 1s ease-in-out;
 
@@ -43,7 +42,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;  
-    padding-left: 120px;
+    padding-left: 50px;
     opacity: 0;
     transform: translateY(85%);
     transition: opacity,transform 1s;    
@@ -73,6 +72,7 @@
     }
     .description {
         padding: 10px;
+        padding-top: 40px
     }
     .about-syllogia{
         font-size: 16px;
