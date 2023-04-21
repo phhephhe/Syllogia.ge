@@ -84,7 +84,7 @@ p{
     padding-top: 20px;
 }
 
-@media (max-width:420px){
+@media (max-width:432px){
     .review {
         width: auto;
     }

@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-@media (max-width:420px){
+@media (max-width:432px){
     .team-background{
         background-position: left center;
         background-size: 500px 250px;

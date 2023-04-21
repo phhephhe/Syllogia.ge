@@ -63,7 +63,7 @@
 
 /* responsive for phone 400px */
 
-@media (max-width:420px){
+@media (max-width:432px){
     .about-us-container{
         display: grid;
         grid-template-columns: 1fr;

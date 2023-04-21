@@ -48,7 +48,7 @@ img{
 .mobile-slider {
     display: none;
 }
-@media(max-width:420px){
+@media(max-width:432px){
     /* slider */
 .desktop-slider{
     display: none;

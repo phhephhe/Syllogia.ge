@@ -52,7 +52,7 @@ ul {
 
 
  /* menu responsive */
- @media (max-width:420px){
+ @media (max-width:432px){
     .header{
         justify-content: space-between;
     }

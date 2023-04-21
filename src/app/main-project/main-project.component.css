@@ -146,7 +146,7 @@
 }
 /* grid responsive */
 
-@media(max-width:420px){
+@media(max-width:432px){
     .team-image2{
         width: 100%;  
     }

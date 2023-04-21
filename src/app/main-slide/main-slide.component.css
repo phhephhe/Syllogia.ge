@@ -69,12 +69,12 @@
 
   /* main slide responsive */
 
-@media (max-width:420px){
+@media (max-width:432px){
   .laptop-img{
     width: 100%;
 }
       .purple-part{
-        top: 490px;
+        top: 485px;
     }
     .main-slide-container{
         grid-template-columns: 1fr ;
